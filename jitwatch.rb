@@ -27,6 +27,6 @@ class Jitwatch < Formula
   end
 
   test do
-    assert_match "Usage: LaunchHeadless", shell_output("#{bin}/jardiff -help")
+    assert_match "Usage: LaunchHeadless", shell_output("#{bin}/jitwatch-headless -help")
   end
 end
