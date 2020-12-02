@@ -6,7 +6,7 @@ class Jardiff < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8+"
+  depends_on openjdk@11
 
   def install
     libexec.install "jardiff.jar"
