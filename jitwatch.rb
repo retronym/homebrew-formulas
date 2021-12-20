@@ -5,8 +5,6 @@ class Jitwatch < Formula
   sha256 "967dca94319e5ccc1f4c89bb6c5950c7299509294f0d90307ef93f4125760de9"
   version "1.4.0"
 
-  bottle :unneeded
-
   depends_on "openjdk@11"
 
   def install
