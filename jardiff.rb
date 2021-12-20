@@ -4,8 +4,6 @@ class Jardiff < Formula
   url "https://github.com/scala/jardiff/releases/download/v1.6.0/jardiff.jar" #, using => :nounzip
   sha256 "a7c068d9880711ce7684be23cff2b07e61428c9dfe70fdd644663f1347eefbd6"
 
-  bottle :unneeded
-
   depends_on "openjdk@11"
 
   def install
