@@ -1,8 +1,8 @@
 class Jardiff < Formula
   desc "Diff tool for Java classes or classpaths"
   homepage "https://github.com/scala/jardiff"
-  url "https://github.com/scala/jardiff/releases/download/v1.6.0/jardiff.jar" #, using => :nounzip
-  sha256 "a7c068d9880711ce7684be23cff2b07e61428c9dfe70fdd644663f1347eefbd6"
+  url "https://github.com/scala/jardiff/releases/download/v1.7.0/jardiff.jar" #, using => :nounzip
+  sha256 "564793f9d64f2cf304c49d63224e2aee30a2cd1f3e7ea580b79030278ff182c9"
 
   depends_on "openjdk@11"
 
